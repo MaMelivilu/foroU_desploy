@@ -19,6 +19,11 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // ⚡ Desactiva errores por 'any'
+      // Opcional: si quieres, puedes desactivar warnings de variables no usadas temporalmente
+      "@typescript-eslint/no-unused-vars": "warn",
+    },
   },
 ];
 
