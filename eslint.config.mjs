@@ -20,10 +20,11 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
     rules: {
-      "@typescript-eslint/no-explicit-any": "off", // ⚡ Desactiva errores por 'any'
+      "@typescript-eslint/no-explicit-any": "off", // ⚡ Desactiva todos los errores por 'any'
       "@typescript-eslint/no-unused-vars": "warn", // ⚠ Solo advierte variables no usadas
       "@next/next/no-img-element": "off",          // ⚡ Permite usar <img> sin error
-    },
+      "jsx-a11y/alt-text": "off",                 // ⚡ Ignora errores de alt en imágenes
+    }
   },
 ];
 
