@@ -21,8 +21,8 @@ const eslintConfig = [
     ],
     rules: {
       "@typescript-eslint/no-explicit-any": "off", // ⚡ Desactiva errores por 'any'
-      // Opcional: si quieres, puedes desactivar warnings de variables no usadas temporalmente
-      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/no-unused-vars": "warn", // ⚠ Solo advierte variables no usadas
+      "@next/next/no-img-element": "off",          // ⚡ Permite usar <img> sin error
     },
   },
 ];
